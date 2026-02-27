@@ -1,0 +1,127 @@
+.about {
+    padding: 10rem 0;
+    background-color: var(--background);
+    border-top: 1px solid var(--border);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.heroAbout {
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.sectionTitle {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.heroImage {
+    width: 100%;
+    aspect-ratio: 21/9;
+    background-color: #111;
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+.heroImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.missionVision {
+    margin-bottom: 10rem;
+}
+
+.mvGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.mvItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mvPlaceholder {
+    aspect-ratio: 1;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.mvText {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.label {
+    font-size: 0.75rem;
+    color: var(--secondary);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.subsectionTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.leaderGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.leaderCard {
+    text-align: center;
+}
+
+.leaderPhoto {
+    aspect-ratio: 1;
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.leaderCard h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.leaderCard p {
+    font-size: 0.8rem;
+    color: var(--secondary);
+}
+
+.partnerLogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.partnerPlaceholder {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+    opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+
+    .mvGrid,
+    .leaderGrid {
+        grid-template-columns: 1fr;
+    }
+}
