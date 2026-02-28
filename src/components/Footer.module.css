@@ -1,5 +1,4 @@
 .footer {
-    border-top: 1px solid var(--border);
     padding-top: 8rem;
     background-color: var(--background);
 }
@@ -36,7 +35,6 @@
 }
 
 .bottom {
-    border-top: 1px solid var(--border);
     padding: 5rem 0;
 }
 

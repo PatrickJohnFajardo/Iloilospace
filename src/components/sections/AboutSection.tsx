@@ -3,7 +3,7 @@ import styles from './AboutSection.module.css';
 const AboutSection = () => {
     const leadership = [
         { name: "DAVE LOU A. GUMARANG", role: "Founder", image: "" },
-        { name: "PATRICK JOHN F. FAJARDO", role: "Contributor", image: "" },
+        { name: "PATRICK JOHN F. FAJARDO", role: "Co-Founder", image: "" },
         { name: "ENGR. HEROLD C. CABIDO", role: "Advisor", image: "" }
     ];
 
@@ -51,9 +51,10 @@ const AboutSection = () => {
                 <div className={styles.partners}>
                     <h2 className={styles.subsectionTitle}>PARTNERS</h2>
                     <div className={styles.partnerLogos}>
-                        <div className={styles.partnerPlaceholder}>ISS</div>
-                        <div className={styles.partnerPlaceholder}>MOJO FOCUS</div>
-                        <div className={styles.partnerPlaceholder}>SACRED HEART ACADEMY, INC.</div>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src="/partner-logo-1.png" alt="Partner 1" className={styles.partnerLogo} />
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src="/partner-logo-2.png" alt="Partner 2" className={styles.partnerLogo} />
                     </div>
                 </div>
             </div>

@@ -1,22 +1,38 @@
+'use client';
+
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import styles from './HeroSection.module.css';
+
+const EarthGlobe = dynamic(() => import('./EarthGlobe'), { ssr: false });
 
 const HeroSection = () => {
     return (
         <section className={styles.hero}>
-            <div className={styles.overlay}></div>
-            {/* Background image should be set via CSS or an Image component */}
+            {/* Deep space gradient background */}
+            <div className={styles.spaceBackground} />
+
+            {/* Earth Globe — right-side positioned via CSS */}
+            <div className={styles.globeWrapper}>
+                <EarthGlobe />
+            </div>
+
+            {/* Left-side text content */}
             <div className={styles.content}>
                 <div className={styles.container}>
+                    <p className={styles.eyebrow}>ILOILO SPACE ORGANIZATION</p>
                     <h1 className={styles.title}>
-                        SHAPING THE NEXT GENERATION OF SPACE PROFESSIONALS
+                        NEXT GENERATION,<br />
+                        <span className={styles.titleAccent}>SPACE-ENABLED</span>
                     </h1>
                     <p className={styles.subtitle}>
-                        Through accessible space education and leadership.
+                        Iloilo Space Organization was founded on the belief that<br />
+                        space makes us curious, drives us to explore, and<br />
+                        pushes us to dream big.
                     </p>
                     <div className={styles.actions}>
-                        <Link href="/programs" className={styles.primaryBtn}>EXPLORE PROGRAMS</Link>
                         <Link href="/about" className={styles.secondaryBtn}>LEARN MORE</Link>
+                        <Link href="/programs" className={styles.primaryBtn}>EXPLORE PROGRAMS</Link>
                     </div>
                 </div>
             </div>

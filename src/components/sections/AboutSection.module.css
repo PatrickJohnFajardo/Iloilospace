@@ -1,7 +1,6 @@
 .about {
     padding: 10rem 0;
     background-color: var(--background);
-    border-top: 1px solid var(--border);
 }
 
 .container {
@@ -111,11 +110,18 @@
     flex-wrap: wrap;
 }
 
-.partnerPlaceholder {
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: #fff;
+.partnerLogo {
+    height: 80px;
+    width: auto;
+    max-width: 220px;
+    object-fit: contain;
     opacity: 0.8;
+    filter: brightness(0) invert(1);
+    transition: opacity 0.3s ease;
+}
+
+.partnerLogo:hover {
+    opacity: 1;
 }
 
 @media (max-width: 900px) {
