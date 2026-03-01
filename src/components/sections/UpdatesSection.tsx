@@ -4,21 +4,15 @@ const UpdatesSection = () => {
     const updates = [
         {
             category: "NEWS",
-            date: "March 3, 2026",
+            date: "January 16, 2026",
             title: "ISO Conducts Stargazing Event at Molo Mansion",
-            image: "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&q=80&w=800"
+            image: "newsthumbnail1.jpg"
         },
         {
             category: "NEWS",
-            date: "January 15-17, 2026",
+            date: "January 16-17, 2026",
             title: "ISO Host Space Camp at SHA",
-            image: "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=800"
-        },
-        {
-            category: "NEWS",
-            date: "January 10, 2026",
-            title: "ISO Bring Space Education at SHA",
-            image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800"
+            image: "newsthumbnail2.jpg"
         }
     ];
 

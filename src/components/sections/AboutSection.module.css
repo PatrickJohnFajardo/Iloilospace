@@ -1,6 +1,6 @@
 .about {
     padding: 10rem 0;
-    background-color: var(--background);
+    background-color: transparent;
 }
 
 .container {
@@ -41,12 +41,32 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
+    align-items: center;
+}
+
+.mvContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.mvTextGroup {
+    display: flex;
+    flex-direction: column;
 }
 
 .mvItem {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
+}
+
+.mvPhoto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid var(--border);
 }
 
 .mvPlaceholder {
@@ -121,6 +141,23 @@
 }
 
 .partnerLogo:hover {
+    opacity: 1;
+}
+
+.partnerTextLogo {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    opacity: 0.8;
+    text-align: center;
+    max-width: 200px;
+    line-height: 1.2;
+    transition: opacity 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.partnerTextLogo:hover {
     opacity: 1;
 }
 

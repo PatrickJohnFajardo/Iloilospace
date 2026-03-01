@@ -1,9 +1,9 @@
-import ContactSection from "@/components/sections/ContactSection";
+import OpportunitiesSection from "@/components/sections/OpportunitiesSection";
 
 export default function ContactPage() {
     return (
         <main style={{ paddingTop: '80px' }}>
-            <ContactSection />
+            <OpportunitiesSection />
         </main>
     );
 }

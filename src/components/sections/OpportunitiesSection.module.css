@@ -1,0 +1,109 @@
+.opportunities {
+    padding: 10rem 0;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.sectionTitle {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.1em;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 4rem;
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 8rem;
+}
+
+.formRow {
+    display: flex;
+    gap: 1rem;
+}
+
+.input {
+    flex: 1;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.8rem 1rem;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.submitBtn {
+    background-color: #fff;
+    color: #000;
+    padding: 0 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    transition: opacity 0.3s ease;
+}
+
+.submitBtn:hover {
+    opacity: 0.8;
+}
+
+.ctaSection {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.ctaTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.ctaText {
+    color: #a0a0a0;
+    font-size: 1.1rem;
+}
+
+.ctaButton {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.ctaButton:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media (max-width: 600px) {
+    .formRow {
+        flex-direction: column;
+    }
+
+    .submitBtn {
+        padding: 0.8rem;
+    }
+}

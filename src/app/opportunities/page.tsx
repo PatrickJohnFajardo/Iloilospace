@@ -1,9 +1,9 @@
-import ServicesSection from "@/components/sections/ServicesSection";
+import OpportunitiesSection from "@/components/sections/OpportunitiesSection";
 
 export default function OpportunitiesPage() {
     return (
         <main style={{ paddingTop: '80px' }}>
-            <ServicesSection />
+            <OpportunitiesSection />
         </main>
     );
 }

@@ -5,12 +5,6 @@ import styles from './Footer.module.css';
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <div className={styles.cta}>
-                <h2>JOIN THE MISSION!</h2>
-                <p>Connect with us for partnerships, opportunities, or inquiries.</p>
-                <Link href="/contact" className={styles.contactBtn}>CONTACT US</Link>
-            </div>
-
             <div className={styles.bottom}>
                 <div className={styles.container}>
                     <div className={styles.orgInfo}>

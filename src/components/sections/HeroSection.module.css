@@ -6,7 +6,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #000;
+    background-color: transparent;
     overflow: hidden;
 }
 
@@ -15,9 +15,8 @@
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(ellipse 60% 80% at 70% 50%, rgba(15, 30, 80, 0.55) 0%, transparent 70%),
-        radial-gradient(ellipse 40% 60% at 20% 40%, rgba(5, 10, 40, 0.4) 0%, transparent 70%),
-        #000;
+        radial-gradient(ellipse 60% 80% at 70% 50%, rgba(15, 30, 80, 0.3) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 20% 40%, rgba(5, 10, 40, 0.2) 0%, transparent 70%);
     z-index: 0;
 }
 
