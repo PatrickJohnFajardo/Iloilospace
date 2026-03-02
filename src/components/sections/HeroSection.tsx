@@ -21,7 +21,7 @@ const HeroSection = () => {
             <div className={styles.content}>
                 <div className={styles.container}>
                     <h1 className={styles.title}>
-                        NEXT GENERATION<br />
+                        NEXT GENERATION,<br />
                         <span className={styles.titleAccent}>SPACE-ENABLED</span>
                     </h1>
                     <p className={styles.subtitle}>

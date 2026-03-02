@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ILOILO SPACE ORGANIZATION",
+  title: "Iloilo Space Organization",
   description: "Advancing accessible space education and developing the next generation of space professionals.",
 };
 
