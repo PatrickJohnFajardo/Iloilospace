@@ -3,8 +3,8 @@ import styles from './AboutSection.module.css';
 const AboutSection = () => {
     const leadership = [
         { name: "DAVE LOU A. GUMARANG", role: "Founder", image: "" },
-        { name: "PATRICK JOHN F. FAJARDO", role: "Co-Founder", image: "" },
-        { name: "ENGR. HEROLD C. CABIDO", role: "Advisor", image: "" }
+        { name: "PATRICK JOHN H. FAJARDO", role: "Co-Founder", image: "" },
+        { name: "ENGR. HEROLD C. CAISIDO", role: "Advisor", image: "" }
     ];
 
     return (
@@ -58,6 +58,8 @@ const AboutSection = () => {
                         <img src="/partner-logo-1.png" alt="Partner 1" className={styles.partnerLogo} />
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img src="/partner-logo-2.png" alt="Partner 2" className={styles.partnerLogo} />
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src="/SMMMMMMMMMMMMMmm.png" alt="Partner 3" className={styles.partnerLogo} />
                         <div className={styles.partnerTextLogo}>SACRED HEART ACADEMY, INC.</div>
                     </div>
                 </div>

@@ -17,9 +17,9 @@ const EarthGlobe = () => {
 
         const camera = new THREE.PerspectiveCamera(40, width / height, 0.1, 1000);
         if (width <= 768) {
-            camera.position.set(0, -0.6, 4.0);
+            camera.position.set(-0.1, -0.4, 5.0);
         } else {
-            camera.position.set(-1.2, 0, 3.2);
+            camera.position.set(-1.0, 0, 4.5);
         }
 
         const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
@@ -251,9 +251,9 @@ const EarthGlobe = () => {
             const h = mount.clientHeight;
             camera.aspect = w / h;
             if (w <= 768) {
-                camera.position.set(0, -0.6, 4.0);
+                camera.position.set(-0.1, -0.4, 5.0);
             } else {
-                camera.position.set(-1.2, 0, 3.2);
+                camera.position.set(-1.0, 0, 4.5);
             }
             camera.updateProjectionMatrix();
             renderer.setSize(w, h);

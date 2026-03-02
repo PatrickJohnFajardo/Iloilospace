@@ -8,8 +8,8 @@ const ContactSection = () => {
                     <div className={styles.info}>
                         <h2 className={styles.sectionTitle}>CONTACT US</h2>
                         <p className={styles.description}>
-                            We&apos;re here to help with any questions or support you need.
-                            Get in touch with us through direct mail. Just give us a knock.
+                            For general inquiries and invitations, feel free to reach out to us via email.
+                            We look forward to connecting with you.
                         </p>
                         <a href="mailto:iloilospaceorganization@outlook.com" className={styles.email}>
                             iloilospaceorganization@outlook.com

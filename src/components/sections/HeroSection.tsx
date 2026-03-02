@@ -21,11 +21,11 @@ const HeroSection = () => {
             <div className={styles.content}>
                 <div className={styles.container}>
                     <h1 className={styles.title}>
-                        NEXT GENERATION,<br />
+                        NEXT GENERATION<br />
                         <span className={styles.titleAccent}>SPACE-ENABLED</span>
                     </h1>
                     <p className={styles.subtitle}>
-                        Iloilo Space Organization was founded on the belief that space makes us curious, drives us to explore, and pushes us to dream big.
+                        Iloilo Space Organization was founded on the belief that space<br /> makes us curious, drives us to explore, and pushes us to dream big.
                     </p>
                     <div className={styles.actions}>
                         <Link href="/about" className={styles.secondaryBtn}>LEARN MORE</Link>
